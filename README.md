@@ -1,6 +1,6 @@
 # Create a Rich Text Editor in a Blazor Server Application
 
-This is a quick-start project that helps you create the Syncfusion Blazor Rich Text Editor using Visual Studio 2019. This example explains how to add content in the Blazor Rich Text Editor and how to use features, too, like customizing the toolbar, adding HTML elements, and retrieving formatted HTML content.
+This is a quick-start project that helps you create the Blazor Rich Text Editor of Syncfusion using Visual Studio 2019. This example explains how to edit and format the HTML and Markdown content using the Blazor Rich Text Editor component of Syncfusion. It also explains few of the important features of Rich Text Editor like how to customize the toolbar, add HTML elements, and retrieve formatted HTML content.
 
 Watch a How-to Video:
 
