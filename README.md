@@ -51,14 +51,14 @@ Configured to turn text into a hyperlink automatically when the user types the U
 
 ### Blazor form validations
 The Blazor Rich Text Editor is a form component that seamlessly supports forms and obtains values on form submission. The two types of validation are,
-•	Required validation
-•	Maximum length validation
+*	Required validation
+*	Maximum length validation
 
 ### Resizable editor
 The Rich Text Editor for Blazor has built-in resizable support that helps widen or shrink the content area.
 
 ### Touch-friendly and responsive WYSIWYG editor
-The RTE for Blazor (mobile HTML editor) recognizes touch gestures, allowing the user to swipe left or right to move the toolbar. The responsive, mobile-friendly design provides the best user experience on all mobiles, tablets, and desktop form factors.
+The Rich Text Editor for Blazor (mobile HTML editor) recognizes touch gestures, allowing the user to swipe left or right to move the toolbar. The responsive, mobile-friendly design provides the best user experience on all mobiles, tablets, and desktop form factors.
 
 ### Globalization
 
