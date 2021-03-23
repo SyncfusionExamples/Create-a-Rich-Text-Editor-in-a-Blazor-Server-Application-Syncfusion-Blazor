@@ -1,41 +1,42 @@
-﻿@page "/"
+@page "/"
 @using Syncfusion.Blazor.RichTextEditor
-@using Syncfusion.Blazor.Buttons
 
-<SfButton @onclick="@GetFormattedHtml">Get Html</SfButton>
-<SfRichTextEditor @bind-Value="@RTEValue" SaveInterval="1" EditorMode="EditorMode.Markdown">
-    <RichTextEditorToolbarSettings Items="Tools"></RichTextEditorToolbarSettings>
-    @*  <p><a href="https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started">Rich Text Editor</a> allows to insert images from online source as well as local computer where you want to insert the image in your content.</p>
-        <p><b>Get started Quick Toolbar to click on the image</b></p>
-        <p>It is possible to add custom style on the selected image inside the Rich Text Editor through quick toolbar.</p>
-        <img src="https://blazor.syncfusion.com/demos/images/RichTextEditor/RTEImage-Feather.png" style='width: 300px; height: 200px' />*@
-    In Rich Text Editor , you click the toolbar buttons to format the words and the changes are visible immediately.
-    Markdown is not like that. When you format the word in Markdown format, you need to add Markdown syntax to the word to indicate which words
-    and phrases should look different from each other.
-    Rich Text Editor supports markdown editing when the editorMode set as **markdown** and using both *keyboard interaction* and *toolbar action*,
-    you can apply the formatting to text.
-    We can add our own custom formation syntax for the Markdown formation, [sample link](https://blazor.syncfusion.com/home/).
-    The third-party library <b>Marked</b> is used in this sample to convert markdown into HTML content.
-
-    Markdown Table Format
-    |Heading 1|Heading 2|
-    |---------|---------|
-    |Col A1|Col A2|
-    |Col B1|Col B2|
+<SfRichTextEditor>
+    <ChildContent>
+        <p>
+            The Rich Text Editor component is a WYSIWYG ("what you see is what you get") editor that provides the best user experience to create and update the content.
+            Users can format their content using standard toolbar commands.
+        </p><p><b>Key features:</b></p><ul>
+            <li>
+                <p>Provides &lt;IFRAME&gt; and &lt;DIV&gt; modes</p>
+            </li>
+            <li>
+                <p>Capable of handling markdown editing.</p>
+            </li>
+            <li>
+                <p>Contains a modular library to load the necessary functionality on demand.</p>
+            </li>
+            <li>
+                <p>Provides a fully customizable toolbar.</p>
+            </li>
+            <li>
+                <p>Provides HTML view to edit the source directly for developers.</p>
+            </li>
+            <li>
+                <p>Supports third-party library integration.</p>
+            </li>
+            <li>
+                <p>Allows a preview of modified content before saving it.</p>
+            </li>
+            <li>
+                <p>Handles images, hyperlinks, video, hyperlinks, uploads, etc.</p>
+            </li>
+            <li>
+                <p>Contains undo/redo manager.</p>
+            </li>
+            <li>
+                <p>Creates bulleted and numbered lists.</p>
+            </li>
+        </ul>
+    </ChildContent>
 </SfRichTextEditor>
-
-@code{
-
-    public string RTEValue { get; set; }
-
-    public object[] Tools = new object[]
-    {
-        "Bold", "Italic", "Undo", "Redo", "CreateTable", "Image", "CreateLink"
-    };
-
-
-    public void GetFormattedHtml()
-    {
-        string RteHtml = this.RTEValue;
-    }
-}
