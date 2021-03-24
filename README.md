@@ -2,13 +2,6 @@
 
 The [Blazor Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-wysiwyg-rich-text-editor?utm_source=github&utm_medium=listing&utm_campaign=blazor-rich-text-editor-github-samples) is a feature-rich WYSIWYG HTML editor and WYSIWYG Markdown editor. This quick-start project helps create the Blazor Rich Text Editor of Syncfusion using Visual Studio 2019. This example explains how to edit and format the HTML and Markdown content. It also explains a few important features of the Rich Text Editor (RTE) like customizing the toolbar, adding HTML elements, and retrieving the formatted HTML content.
 
-Watch a How-to Video: https://www.syncfusion.com/tutorial-videos/blazor/rich-text-editor?title=create-a-rich-text-editor-in-a-blazor-server-application
-
-Documentation: 
-https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started
-
-Online example: https://blazor.syncfusion.com/demos/RichTextEditor/Overview
-
 ## Project prerequisites
 Make sure you have the compatible versions of .NET Core on your machine before starting to work on this project. You also need the following:
 * [Visual Studio 2019 (version 16.4+)]( https://visualstudio.microsoft.com/downloads)
