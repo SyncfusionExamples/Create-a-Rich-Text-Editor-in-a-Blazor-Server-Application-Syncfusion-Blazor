@@ -1,14 +1,17 @@
 # Create a Rich Text Editor in a Blazor Server Application
 
-The [Blazor Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-wysiwyg-rich-text-editor?utm_source=github&utm_medium=listing&utm_campaign=blazor-rich-text-editor-github-samples) is a feature-rich WYSIWYG HTML editor and WYSIWYG Markdown editor. This quick-start project helps create the Blazor Rich Text Editor of Syncfusion using Visual Studio 2019. This example explains how to edit and format the HTML and Markdown content. It also explains a few important features of the Rich Text Editor (RTE) like customizing the toolbar, adding HTML elements, and retrieving the formatted HTML content.
+The [Blazor Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-wysiwyg-rich-text-editor?utm_source=github&utm_medium=listing&utm_campaign=blazor-rich-text-editor-github-samples) is a feature-rich WYSIWYG HTML editor and WYSIWYG Markdown editor. This quick-start project helps create the Blazor Rich Text Editor of Syncfusion using Visual Studio 2022. This example explains how to edit and format the HTML and Markdown content. It also explains a few important features of the Rich Text Editor (RTE) like customizing the toolbar, adding HTML elements, and retrieving the formatted HTML content.
 
-## Project prerequisites
-Make sure you have the compatible versions of .NET Core on your machine before starting to work on this project. You also need the following:
-* [Visual Studio 2019 (version 16.4+)]( https://visualstudio.microsoft.com/downloads)
-* [.NET Core SDK 3.1.2+](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+## Prerequisites
 
-## How to run this application
-To run this application, you need to first clone or download the ‘Create a Rich Text Editor in a Blazor Server Application’ repository and then open it in Visual Studio 2019. Now, build and run your project to view the output.
+* Visual Studio 2022
+
+## How to run the project
+
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
 
 ## Further help
 To get more help, check out the [ASP.NET Core Blazor documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor).
